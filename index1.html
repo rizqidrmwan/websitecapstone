@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap">
   <title>Analisis Sentimen Gojek</title>
   <style>
-    /* Tambahan CSS untuk efek hover pada tombol navigasi */
     .nav-button {
       cursor: pointer;
       transition: background-color 0.3s ease, color 0.3s ease;
@@ -24,20 +23,20 @@
     <img class="how-to-become-a-data-analyst-1-icon" alt="Ilustrasi Data Analyst" src="How-To-Become-A-Data-Analyst 1.png">
     <div class="rectangle-parent">
       <div class="group-child"></div>
-      <div class="button nav-button" onclick="navigateToIndex('index1.html')">
+      <div class="button nav-button" onclick="window.location.href='index1.html'">
         <div class="button1">Komentar</div>
       </div>
-      <div class="button2 nav-button" onclick="navigateToIndex('index2.html')">
+      <div class="button2 nav-button" onclick="window.location.href='index2.html'">
         <div class="button1">Monitoring</div>
       </div>
-      <div class="button4 nav-button" onclick="navigateToIndex('index3.html')">
+      <div class="button4 nav-button" onclick="window.location.href='index3.html'">
         <div class="button1">Dashboard</div>
       </div>
       <b class="analisis-sentimen-pengguna">
         Analisis Sentimen Pengguna terhadap Layanan Transportasi Gojek di Indonesia: Studi Kasus pada Ulasan Aplikasi di Play Store
       </b>
       <div class="logo-bsi-1"></div>
-      <div class="button6 nav-button" onclick="navigateToIndex('index4.html')">
+      <div class="button6 nav-button" onclick="window.location.href='index4.html'">
         <div class="button1">About</div>
       </div>
     </div>
@@ -59,11 +58,5 @@
     <div class="group-item"></div>
     <img class="mb-white-200-1-icon" alt="Logo tambahan" src="mb_white_200 1.png">
   </div>
-
-  <script>
-    function navigateToIndex(page) {
-      window.location.href = page;
-    }
-  </script>
 </body>
 </html>
