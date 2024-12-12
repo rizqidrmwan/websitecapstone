@@ -1,2 +1,0 @@
-# websitecapstone
-capstone merah putih
